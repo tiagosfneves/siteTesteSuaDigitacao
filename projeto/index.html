@@ -19,26 +19,33 @@
 
     <main>
       <section class="">
-        <h2>Descubra qual a Velocidade da sua Digitação!</h2>
+        <h2>Descubra a Velocidade da sua Digitação!</h2>
 
         <div id="instrucoes">
           <p>Faça o seu teste de digitação em 3 passos, é rápido e fácil:</p>
-          <p>1. Os "textos" são aleatórios e gerados automaticamente</p>
-          <p>2. É só Digitar o Texto no quadro abaixo e pressione [ENTER]</p>
-          <p>3. O seu tempo será contabilizado e será exibido no histórico abaixo;</p>
-          <p>Se precisar recomeçar, pressione [Reiniciar].</p>
+          <p>1. O Teste só começa quando você clica na área de digitação;</p>
+          <p>2. Para continua no Teste basta digitar as próximas "frases";</p>
+          <p>3. E quando quiser encerrar é só parar de digitar;</p>
+<!--           <p>MAIS INFORMAÇÕES</p>
+          <p>•Se precisar recomeçar, pressione [Reiniciar].</p>
+          <p>•As "frases" são geradas de forma automática e aleatória;</p>
+          <p>•Sua Velocidade será contabilizada e exibida no histórico abaixo;</p>
+          <p>•Mude o TEMA da página no botão [Tema!]</p> -->
+          
         </div>
-        <div><p>"</p><h3 id="texto"></h3><p>"</p></div> <!-- Campo de texto aletório gerado no JS -->
+        <div><h3 id="texto"></h3></div> <!-- Campo de frases ("texto") aletório gerado no JS -->
       </section>
 
       <section>
-        <textarea id="entrada" rows="5" placeholder="Comece a digitar para iniciar seu teste!"></textarea>
-        <button id="reiniciar">Reiniciar</button>
+        <textarea id="entrada" rows="3" placeholder="Clique aqui e comece o seu teste!"></textarea>
+        <button id="reiniciar">Novo Teste</button>
       </section>
 
       <section>
-        <div id="resultado"></div>
-        <div id="historico"></div>
+        <p>• Velocidade da última digitação •</p>
+        <div id="resultado"></div>  <!-- Campo que mostra o resultado da última digitação -->
+        <p>• Historico •</p>
+        <div id="historico"></div>  <!-- Campo que lista o historico das digitações -->
       </section>
     </main>
 

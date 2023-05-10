@@ -41,38 +41,53 @@ footer {
 
 /* CONFIG DOS IDs */
 #instrucoes {
+  margin-bottom: 1rem;
   font-size: 1rem;
-  line-height: 1.5;
-  text-align: left;
-  margin: 1rem 2rem;
+  text-align: center;
+
 }
 
 #texto {
+/*   background-color: #000000; */
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
   font-size: 1.2rem;
-  padding: 1.2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 
 #entrada {
+  background-color: #000000;
   border-radius: 1rem;
   width: 100%;
   padding: .8rem;
   margin-bottom: 1rem;
   border: none;
   color: #f3f3f3;
-  background-color: #000000;
 }
 
 #resultado {
+/*   background-color: #000000; */
+  border-radius: 1rem;
+  width: 100%;
   font-size: 1.2rem;
+  padding: .8rem;
   margin-bottom: 1rem;
+}
+
+/* CONFIG TEXTO DE TÍTULOS E PARÁGRAFOS */
+h2, h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 2;  
 }
 
 /* BOTÕES */
 button {
   font-size: 1rem;
   padding: 0.6rem 1.2rem;
+  margin-bottom: 1rem;
   background-color: #0EE000;
   color: #f3f3f3;
   border-radius: 8rem;
@@ -93,7 +108,7 @@ button:hover {
 }
 
 .escuro {
-  background-color: #0f0f0f;
+  background-color: #000000;
   color: #f3f3f3;
 }
 
@@ -121,3 +136,7 @@ button:hover {
 .claro footer {
   background-color: #ffffffb9;
 }
+
+/* .claro #resultado {
+  color: #f2f2f2;
+} */
