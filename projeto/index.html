@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de Digitação</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js" defer></script>
+  </head>
+
+  <body class="escuro">
+    <header>
+      <h1>Teste de Digitação</h1>
+
+      <button id="alternarTema">Tema!</button>
+    </header>
+
+    <main>
+      <section class="">
+        <h2>Descubra qual a Velocidade da sua Digitação!</h2>
+
+        <div id="instrucoes">
+          <p>Faça o seu teste de digitação em 3 passos, é rápido e fácil:</p>
+          <p>1. Os "textos" são aleatórios e gerados automaticamente</p>
+          <p>2. É só Digitar o Texto no quadro abaixo e pressione [ENTER]</p>
+          <p>3. O seu tempo será contabilizado e será exibido no histórico abaixo;</p>
+          <p>Se precisar recomeçar, pressione [Reiniciar].</p>
+        </div>
+        <div><p>"</p><h3 id="texto"></h3><p>"</p></div> <!-- Campo de texto aletório gerado no JS -->
+      </section>
+
+      <section>
+        <textarea id="entrada" rows="5" placeholder="Comece a digitar para iniciar seu teste!"></textarea>
+        <button id="reiniciar">Reiniciar</button>
+      </section>
+
+      <section>
+        <div id="resultado"></div>
+        <div id="historico"></div>
+      </section>
+    </main>
+
+    <footer>
+      <h5>Teste de Digitação &copy; 2023 - @TIAGOSFNEVES</h5>
+    </footer>
+  </body>
+</html>
