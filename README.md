@@ -29,7 +29,7 @@ Foi desenvolvido em HTML5, CSS3 e JavaScript.
 
 <h2>Contato</h2>
 <ul>
-    <li><a href="https://linkedin.com/in/tiagosfneves">LinkedIn</a> - Fique a vontade para fazer suas contribuições, sugestões e críticas ao código, clicando no meu nome tu vai para o meu LinkedIn.</li>
+    <li><a href="https://linkedin.com/in/tiagosfneves">LinkedIn</a> - Fique a vontade para fazer suas contribuições, sugestões e críticas ao código.</li>
     <li><a href="mailto:tiagonevestec@gmail.com">E-mail</a> - Se preferir este é o meu E-mail. Aguardo sua mensagem!</li>
 </ul>
 
