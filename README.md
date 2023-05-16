@@ -1,8 +1,8 @@
 # Repositório - Site, Teste a Velocidade da sua Digitação.
 
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/tiagosfneves/blogDoLeigoo_Fork_MB?style=flat-square" alt="GitHub repo size" />
-    <img src="https://img.shields.io/github/contributors/tiagosfneves/blogDoLeigoo_Fork_MB?style=flat-square" alt="GitHub contributors" />
+    <img src="https://img.shields.io/github/repo-size/tiagosfneves/siteTesteSuaDigitacao?style=flat-square" alt="GitHub repo size" />
+    <img src="https://img.shields.io/github/contributors/tiagosfneves/siteTesteSuaDigitacao?style=flat-square" alt="GitHub contributors" />
 
 Este projeto de Site Testa a Velocidade da sua Digitação, como funciona?
 - Você digita os textos sugeridos;
